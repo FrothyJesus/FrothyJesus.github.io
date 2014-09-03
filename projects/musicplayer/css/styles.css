@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+html, body{
+    height: 100%;
+}
+
+body{
+    display: flex;
+    flex-direction: row;
+}
+
+aside{
+    background: gray;
+    flex: 1;
+    height: 100%;
+}
+
+ul{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+li{
+    background-color: #121212;
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+}
+
+div.imgwrap{
+    flex: 1;
+    background-size: 100%;
+    display: flex;
+    align-items: center;    
+    background-repeat: no-repeat;
+}
+
+
+
+i.playcontrol{
+    text-align: center;
+    flex: 1;
+    z-index: -1;
+}
+
+div.infowrap{
+    flex: 1;
+    background-color: #141515;
+    border-bottom: 1px solid white;
+}
+
+.infowrap p{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.3em;
+}
+
+.spacer{
+    text-align: center;
+    margin-top: 1em;
+    
+}
+
+#beatles{
+    background-image: url("http://kodeezign.files.wordpress.com/2012/11/beatles-album-cover1.jpg");
+}
+
+#chilipeppers{
+    background-image: url("http://imgsrv1.pxdrive.com/pics/norm/108914.jpg") ;
+}
+
+#nirvana{
+    background-image: url("http://eil.com/images/main/Nirvana+(US)+-+In+Utero+-+LP+RECORD-237749.jpg");
+}
+
+#kiss{
+    background-image: url("http://www.necramonium.com/photos/KISS-Album-Covers/cover_rockandrollover.jpg");
+}
+
+#zeppelin{
+    background-image: url("http://seannysins.files.wordpress.com/2013/10/tumblr_m4dcgeaejo1ruiadto1_1280.jpg");
+    
+}
+
+div.imgwrap:hover{
+    background-position: -9999px;
+}
+
+
+
+article{
+    background: darkslategray;
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+}
+
+#display{
+    background: #150322;
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+}
+
+#display p{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2em;
+    text-align: center;
+    flex:1;
+    color: #c9c1c1;
+}
+
+img{
+    margin: 0 auto;
+    width: 40%;
+    height: 100%;
+    flex: 3;
+}
+
+#controls{
+    background: #161238;
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.control:hover{
+    background: #372a76; 
+}
+
+.control{
+    text-align: center;
+    flex: 1;
+}
+
+
+
+
+
+
+

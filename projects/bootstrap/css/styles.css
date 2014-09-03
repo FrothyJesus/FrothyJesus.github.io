@@ -1,0 +1,59 @@
+header{
+    width: 100%;
+    height: 50px;
+    background-color: grey;
+}
+
+aside{
+    width: 100%;
+    height: 549px;
+    background-color: darkslategray;
+    border-radius: 10px;
+}
+
+.btn{
+    clear: both;
+}
+
+
+
+#headercontent{
+    margin: 0 auto;
+    width: 100%;
+    background-color: black;
+    color: #CCCCCC;
+    border-radius: 10px;
+}
+
+#buttonp{
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+div h1{
+    text-align: center;
+    
+}
+
+#badge1{
+    width: 50px;  
+}
+
+#badge2{
+    width: 50px;
+}
+
+#badge3{
+    width: 75px;
+}
+
+#badge4{
+    width:75px;
+    
+}
+
+
+
+
+

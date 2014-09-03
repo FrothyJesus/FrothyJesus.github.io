@@ -1,0 +1,46 @@
+header{
+    height: 200px;
+    background-color: darkslategray;
+}
+
+main{
+    height: 800px;
+    background-color: grey;
+}
+
+footer{
+    height: 100px;
+    background-color: black;
+}
+
+.pure-menu.pure-menu-open {
+    width: 50%;
+    float: right;
+}
+
+.pure-menu.pure-menu-open, .pure-menu.pure-menu-horizontal li .pure-menu-children {
+background: black;
+
+}
+
+.pure-menu .pure-menu-heading {
+color: orange;
+text-transform: uppercase;
+font-size: 90%;
+margin-top: .5em;
+border-bottom-width: 1px;
+border-bottom-style: solid;
+border-bottom-color: grey;
+}
+
+.pure-menu li a:hover, .pure-menu li a:focus {
+background: darkslategray;
+}
+
+footer{
+    color: darkorange;
+    
+}
+
+
+    
