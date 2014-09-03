@@ -20,7 +20,12 @@
 		</nav>
 	</header>
 	<main>
-		<div id="hero"></div>
+		<div id="hero">
+		    <div id="sizr">
+		        <button class="plus">+</button>
+		        <button class="minus">-</button>
+		    </div>
+		</div>
 		<section class="clear">
 			<img src="img/avatar.png" />
 			<article>
@@ -37,6 +42,27 @@
 	<footer>
 		<p>Copyright &copy; 2014 Geekwise Academy. All rights reserved.</p>
 	</footer>
+	<script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+	<script>
+        $(document).ready(function(){
+            
+            var size = 100;
+            
+            $("resizr").on({
+                click: function(){
+                    if($(this).hasClass("plus")){
+                        console.log("clicked the plus");
+                        size = size + 1;
+                        $("body").css("font-size", size + "%");
+                    }else{
+                        console.log("clicked the minus");
+                        size = size - 1;
+                        $("body").css("font-size", size + "%");
+                    }
+                }
+            });
+        });
+    </script>
 
 </body>
 </html>
