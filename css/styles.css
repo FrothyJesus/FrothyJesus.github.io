@@ -3,6 +3,7 @@ body, header, footer, aside, article, ul, li{
     padding: 0;
 }
 
+
 #wrapper{
     display: flex;
     width: 100%;
@@ -32,7 +33,7 @@ header h1{
 
 #asart{
     flex: 1;
-    height: 700px;
+    height: 5000px;
     width: 100%;
     background-color: blue;
     display: flex;
@@ -97,7 +98,7 @@ footer{
     li p{
         color: white;
         flex: 1;
-        font-size: 100%;
+        font-size: 1rem;
         font-family: 'Roboto', sans-serif;
     }
     #arrow{
